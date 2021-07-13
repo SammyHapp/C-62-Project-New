@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<h1>Welcome to my photo gallery</h1>
+	<img id="logo" src="Logo.png">
+	<h2>Grid Gallery</h2>
+	<div class="cars">
+		<img src="Woody.jpg">
+		<img src="Bonnie.png">
+		<img src="Buzz%20Lightyear.jfif">
+		<img src="Jessie.png">
+		<img src="Buttercup.jfif">
+		<img src="Mr.%20Potato%20Head.png">
+		<img src="Rex.jpg">
+		<img src="SLinky%20Dog.png">
+		<img src="Hamm.png">
+	</div>
+	<h3>Slide Gallery</h3>
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<center>
+					<img class="img-responsive" src="Woody.jpg">
+					<div class="carousel-content">
+						<p>Woody</p>
+					</div>
+				</center>
+			</div>
+
+			<div class="item">
+				<center>
+					<img class="img-responsive" src="Buzz%20Lightyear.jfif">
+					<div class="carousel-content">
+						<p>Buzz_Lightyear</p>
+					</div>
+				</center>
+			</div>
+
+		<div class="item">
+			<center>
+				<img src="Jessie.png" class="img-responsive">
+				<div class="carousel-content">
+					<p>Jessie</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<img src="Bonnie.png" class="img-responsive">
+				<div class="carousel-content">
+					<p>Bonnie</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<a>
+					<img src="Buttercup.jfif" class="img-responsive">
+				</a>
+				<div class="carousel-content">
+					<p>Buttercup</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<img src="Hamm.png" class="img-responsive">
+				<div class="carousel-content">
+					<p>Hamm</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<img src="Mr.%20Potato%20Head.png" class="img-responsive">
+
+				<div class="carousel-content">
+					<p>Mr_Potato_Head</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<img src="Rex.jpg" class="img-responsive">
+				<div class="carousel-content">
+					<p>Rex</p>
+				</div>
+			</center>
+		</div>
+		<div class="item">
+			<center>
+				<img src="SLinky%20Dog.png" class="img-responsive">
+				<div class="carousel-content">
+					<p>Slinky_dog</p>
+				</div>
+			</center>
+		</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+	</div>
+</body>
+
+</html>

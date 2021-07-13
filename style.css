@@ -1,0 +1,15 @@
+#logo {
+	width: 300px;
+}
+
+body{
+	text-align: center;
+}
+
+img {
+	width:200px
+}
+
+#myCarousel {
+	background-color: red;
+}
